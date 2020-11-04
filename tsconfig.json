@@ -1,0 +1,26 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules", "lib"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "types": ["jest"],
+    "jsx": "react",
+    "rootDir": "src",
+    "baseUrl": "src",
+    "strict": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "noUnusedParameters": true,
+    "downlevelIteration": true,
+    "strictFunctionTypes": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
