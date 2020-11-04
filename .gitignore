@@ -1,0 +1,20 @@
+# Created by .ignore support plugin (hsz.mobi)
+lib
+
+### Node template
+.idea
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
